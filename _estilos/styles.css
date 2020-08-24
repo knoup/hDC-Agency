@@ -1,16 +1,37 @@
 @charset "UTF-8";
-body {
-    background-color: black;
-    color: yellow;
+body{
+    background-image: url("https://i.pinimg.com/originals/3a/fc/fc/3afcfcafb55d99e30d9a7ffab4ed96c7.jpg");
+    color: black;
+}
+#main-div {
     text-align: center;
     font-family: 'Bungee', cursive;
 }
 
-img {
-    width: 800px;
+#logo {
+    padding: 0px 1800px 50px 0px;
+    border: 0px 0px 0px 0px;
 }
 
-.mydiv {
-    align-items: center;
+#div-logo{
+    position: fixed;
 }
 
+.imagem {
+    height: 30%;
+    width: 30%;
+}
+
+#how-buy {
+    display: flexbox;
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    right: 1500px;
+    font-family: 'Bungee', cursive;
+    text-align: center;
+}
+
+#tippin-button {
+    margin-left: 120px;
+}
